@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "create_heated"
-version = "1.0.0"
+version = "1.1.0"
 displayName = "Create: Heated"
 description = '''Lets a lit campfire heat basins like a Blaze Burner.'''
 
