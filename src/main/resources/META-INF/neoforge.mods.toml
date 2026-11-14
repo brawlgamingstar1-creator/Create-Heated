@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="freepower"
+version="1.0.0"
+displayName="Free Power Generator"
+description="Infinite power block for Create: New Age. No magnets, no rotation."
+
+[[dependencies.freepower]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.209,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.freepower]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.freepower]]
+modId="create_new_age"
+type="required"
+versionRange="[1.2.0,)"
+ordering="AFTER"
+side="BOTH"
